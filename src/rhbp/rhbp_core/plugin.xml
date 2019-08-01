@@ -1,0 +1,15 @@
+<library path="src">
+  <class name="BehaviourPlannerGui" type="rqt_planner_gui.behaviour_planner_gui.Overview" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Overview of Behaviour Planner
+    </description>
+    <qtgui>
+      <group>
+        <label>Behaviour Planner</label>
+      </group>
+      <label>RHBP Overview</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Monitor and Debug the current state of the ROS Hybrid Behaviour Planner (RHBP), also  enables configuration and runtime adjustments</statustip>
+    </qtgui>
+  </class>
+</library>

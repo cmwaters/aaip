@@ -1,0 +1,2 @@
+Position pos
+string type

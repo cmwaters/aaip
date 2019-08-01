@@ -1,0 +1,3 @@
+<launch>
+    <test pkg="rhbp_utils" type="knowledge_sensor_test.py" test-name="knowledge_sensor_test_node"/>
+</launch>

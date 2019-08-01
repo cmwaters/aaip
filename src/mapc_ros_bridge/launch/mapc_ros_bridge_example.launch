@@ -1,0 +1,72 @@
+<launch>
+
+    <include file="$(find mapc_ros_bridge)/launch/mapc_ros_bridge.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA1" />
+    </include>
+    <include file="$(find mapc_ros_bridge)/launch/dummy_agent.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA1" />
+    </include>
+
+    <include file="$(find mapc_ros_bridge)/launch/mapc_ros_bridge.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA2" />
+    </include>
+    <include file="$(find mapc_ros_bridge)/launch/dummy_agent.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA2" />
+    </include>
+
+    <include file="$(find mapc_ros_bridge)/launch/mapc_ros_bridge.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA3" />
+    </include>
+    <include file="$(find mapc_ros_bridge)/launch/dummy_agent.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA3" />
+    </include>
+
+    <include file="$(find mapc_ros_bridge)/launch/mapc_ros_bridge.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA4" />
+    </include>
+    <include file="$(find mapc_ros_bridge)/launch/dummy_agent.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA4" />
+    </include>
+
+    <include file="$(find mapc_ros_bridge)/launch/mapc_ros_bridge.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA5" />
+    </include>
+    <include file="$(find mapc_ros_bridge)/launch/dummy_agent.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA5" />
+    </include>
+
+    <include file="$(find mapc_ros_bridge)/launch/mapc_ros_bridge.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA6" />
+    </include>
+    <include file="$(find mapc_ros_bridge)/launch/dummy_agent.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA6" />
+    </include>
+
+    <include file="$(find mapc_ros_bridge)/launch/mapc_ros_bridge.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA7" />
+    </include>
+    <include file="$(find mapc_ros_bridge)/launch/dummy_agent.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA7" />
+    </include>
+
+    <include file="$(find mapc_ros_bridge)/launch/mapc_ros_bridge.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA8" />
+    </include>
+    <include file="$(find mapc_ros_bridge)/launch/dummy_agent.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA8" />
+    </include>
+
+    <include file="$(find mapc_ros_bridge)/launch/mapc_ros_bridge.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA9" />
+    </include>
+    <include file="$(find mapc_ros_bridge)/launch/dummy_agent.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA9" />
+    </include>
+
+    <include file="$(find mapc_ros_bridge)/launch/mapc_ros_bridge.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA10" />
+    </include>
+    <include file="$(find mapc_ros_bridge)/launch/dummy_agent.launch" pass_all_args="true">
+        <arg name="agent_name" value="agentA10" />
+    </include>
+</launch>
