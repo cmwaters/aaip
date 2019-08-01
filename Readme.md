@@ -1,3 +1,8 @@
+# Applied Artificial Intelligence Project
+
+This repository is a copy of the original project conducted at the TU Berlin under the DAI research group which aimed 
+at developing an autonomous agent for the mulitagent programming contest. Further description is as follows
+
 # Multi-Agent Programming Contest Workspace
 
 Technische Universität Berlin - DAI-Labor - http://www.dai-labor.de/
@@ -7,7 +12,7 @@ Contest homepage: https://multiagentcontest.org/2019/
 This is the main workspace for the TUB participation in the Multi-Agent Contest (MAPC) 2019.
 It applies the ROS Hybrid Behaviour Planner Framework (RHBP) on top of the ROS (Robot Operating System) framework.
 
-## Setup and Install
+## Setup and Installation
 
 ### Dependencies
 
@@ -59,7 +64,7 @@ The project structure working with MASSim sources should look like below. In () 
         * src (ROS source packages)
             * rhbp (the used decison-making and planning framework (git submodule)) https://gitlab.tubit.tu-berlin.de/rhbp/rhbp
             * mapc_ros_bridge (node implementation that works as a proxy between ROS and MASSim. It converts all simulation perception and creates all required topics.)
-            * mac_rhbp_example (simple example using RHBP, ROS and mac_ros_bridge) (git submodule)
+            * group4 (the groups specific implementation using the rhbp framework)
         * script (useful scripts, you might want to add this directory to your PATH variable)
         * third-party
             * massim (MASSim root directory (git submodule)) https://github.com/agentcontest/massim_2019
